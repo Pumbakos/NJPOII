@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <Age>19</Age>
+    <FirstName>Loaf</FirstName>
+    <LastName>Birth</LastName>
+    <IdNumber>dfb8d156-97e6-47c3-925a-bcf77094e49a</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>19</Age>
+    <FirstName>Loaf</FirstName>
+    <LastName>Birth</LastName>
+    <IdNumber>c7077674-efe9-419a-bb29-fbb6959cccd5</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>33</Age>
+    <FirstName />
+    <LastName />
+    <IdNumber>1137ca8b-d188-413b-ae96-fe7a2770c522</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>65</Age>
+    <FirstName />
+    <LastName>print</LastName>
+    <IdNumber>9a240592-4093-4ce0-8bd8-b2cc53aa6957</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>90</Age>
+    <FirstName>immense</FirstName>
+    <LastName />
+    <IdNumber>8bbc7ee0-d41c-40a1-b9ed-539489330825</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>4</Age>
+    <FirstName />
+    <LastName />
+    <IdNumber>e5654a6c-30f8-459f-a80d-91a409ddeddf</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+  <Employee>
+    <Age>51</Age>
+    <FirstName>Weave</FirstName>
+    <LastName>Death</LastName>
+    <IdNumber>55c32e73-0934-4e33-9d62-596a3fd3a238</IdNumber>
+    <Born>1994-04-03T15:32:16.000</Born>
+    <Type>Employee</Type>
+  </Employee>
+</ArrayOfEmployee>

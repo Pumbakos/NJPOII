@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOOP", "CSharpOOP\CSharpOOP.csproj", "{0C30E106-1985-4CA9-9D47-8FB79F455900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C30E106-1985-4CA9-9D47-8FB79F455900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C30E106-1985-4CA9-9D47-8FB79F455900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C30E106-1985-4CA9-9D47-8FB79F455900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C30E106-1985-4CA9-9D47-8FB79F455900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
