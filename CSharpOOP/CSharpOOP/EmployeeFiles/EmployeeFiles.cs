@@ -7,12 +7,9 @@ using System.Xml.Serialization;
 namespace CSharpOOP.EmployeeFiles
 {
     [Serializable()]
-    public class EmployeeFiles<T> where T : IEmployee, new()
+    public class EmployeeFiles<T> where T : IEmployee
     {
         private List<T> Employees { get; }
-
-        private const string Path =
-            "C:\\Users\\Pumbakos\\Desktop\\NJPOII\\CSharpOOP\\CSharpOOP\\EmployeeFiles\\output\\";
 
         public EmployeeFiles(List<T> employees)
         {
@@ -91,62 +88,9 @@ namespace CSharpOOP.EmployeeFiles
             return retList;
         }
 
-        public bool Save(FileFormat format)
+        public bool Save(IWrapper wrapper, List<IEmployee> employee)
         {
-            switch (format)
-            {
-                case FileFormat.Json:
-                {
-                    try
-                    {
-                        var json = JsonSerializer.Serialize(Employees);
-                        File.WriteAllText(Path + "employeeFiles.json", json);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine("Troubles during file saving :(");
-                    }
-
-                    Console.WriteLine("File saved!");
-                    return true;
-                }
-                    break;
-                case FileFormat.Txt:
-                {
-                    try
-                    {
-                        var json = JsonSerializer.Serialize(Employees);
-                        File.WriteAllText(Path + "employeeFiles.txt", json);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine("Troubles during file saving :(");
-                    }
-
-                    Console.WriteLine("File saved!");
-                    return true;
-                }
-                case FileFormat.Xml:
-                {
-                    try
-                    {
-                        var serializer = new XmlSerializer(typeof(List<T>));
-                        TextWriter fileStream = new StreamWriter(Path + "employeeFiles.xml");
-                        serializer.Serialize(fileStream, Employees);
-                        fileStream.Close();
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e);
-                        //throw; ?
-                    }
-
-                    Console.WriteLine("File saved!");
-                    return true;
-                }
-            }
-
-            return false;
+            return wrapper.Save(employee);
         }
     }
 }

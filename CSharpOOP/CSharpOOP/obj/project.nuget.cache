@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "BnhaaBUAbmhIvZcAi+gcuoRLoFB381pvoH2M25iBJ+/K6q7sBpMl15YF9QmBVV/cLVwWqvfPIhLDjtxMbWycmQ==",
+  "dgSpecHash": "DToea0QGYLDNInhKg7wO0/i4bx5frZrN6R0Aim+0wikb9pW1zi2p/RIW9bIz64EmRszIbL7SBTy+UWzLh7pILA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pumbakos\\Desktop\\NJPOII\\CSharpOOP\\CSharpOOP\\CSharpOOP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0-rc.2.21480.5\\microsoft.win32.systemevents.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0-rc.2.21480.5\\system.configuration.configurationmanager.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.drawing.common\\6.0.0-rc.2.21480.5\\system.drawing.common.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.security.accesscontrol\\6.0.0-rc.2.21480.5\\system.security.accesscontrol.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0-rc.2.21480.5\\system.security.cryptography.protecteddata.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.security.permissions\\6.0.0-rc.2.21480.5\\system.security.permissions.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Pumbakos\\.nuget\\packages\\system.windows.extensions\\6.0.0-rc.2.21480.5\\system.windows.extensions.6.0.0-rc.2.21480.5.nupkg.sha512"
+  ],
   "logs": []
 }

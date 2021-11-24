@@ -5,7 +5,10 @@ namespace CSharpOOP.EmployeeFiles
 {
     public class EmployeeFilesProgram
     {
-        private static List<Employee> _employees = new();
+        private static readonly List<IEmployee> Employees = new();
+        private static readonly JsonWrapper JsonWrapper = new();
+        private static readonly XmlWrapper XmlWrapper = new();
+        private static readonly TxtWrapper TxtWrapper = new();
 
         public void Run()
         {
@@ -32,15 +35,15 @@ namespace CSharpOOP.EmployeeFiles
                 "1994-04-03T15:32:16.000", EmployeeType.Employee);
 
             Console.WriteLine("\nCreating file...");
-            _employees.Add(employee);
-            _employees.Add(employee2);
-            _employees.Add(employee3);
-            _employees.Add(employee4);
-            _employees.Add(employee5);
-            _employees.Add(employee6);
-            _employees.Add(employee7);
+            Employees.Add(employee);
+            Employees.Add(employee2);
+            Employees.Add(employee3);
+            Employees.Add(employee4);
+            Employees.Add(employee5);
+            Employees.Add(employee6);
+            Employees.Add(employee7);
 
-            EmployeeFiles<Employee> employeeFiles = new(_employees);
+            EmployeeFiles<IEmployee> employeeFiles = new(Employees);
 
             Console.WriteLine("\nAre first two employees same person?: " + employee.IsMatch(employee2));
 
@@ -57,7 +60,7 @@ namespace CSharpOOP.EmployeeFiles
             }
 
             Console.WriteLine("\nShowing valid employees...");
-            foreach (var e in _employees)
+            foreach (var e in Employees)
             {
                 if (IEmployee.IsValid(e))
                     Console.WriteLine(e.ToString());
@@ -78,13 +81,16 @@ namespace CSharpOOP.EmployeeFiles
             }
 
             Console.WriteLine("\nSaving EmployeeFiles to JSON format ...");
-            employeeFiles.Save(FileFormat.Json);
+            employeeFiles.Save(JsonWrapper, Employees);
 
             Console.WriteLine("\nSaving EmployeeFiles to TXT format ...");
-            employeeFiles.Save(FileFormat.Txt);
+            employeeFiles.Save(TxtWrapper, Employees);
             
             Console.WriteLine("\nSaving EmployeeFiles to XML format ...");
-            employeeFiles.Save(FileFormat.Xml);
+            employeeFiles.Save(XmlWrapper, Employees);
+
+            EmployeeConfigurator.SetShift(5);
+            Console.WriteLine("Shift: " + EmployeeConfigurator.GetShift());
         }
     }
 }
