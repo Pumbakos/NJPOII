@@ -1,0 +1,16 @@
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.exe
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.deps.json
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.json
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.dev.json
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.dll
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\ref\DesignPatterns.dll
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\bin\Debug\net5.0\DesignPatterns.pdb
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfo.cs
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.dll
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\ref\DesignPatterns.dll
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.pdb
+C:\Users\Pumbakos\Desktop\NJPOII\DesignPatterns\DesignPatterns\obj\Debug\net5.0\DesignPatterns.genruntimeconfig.cache
