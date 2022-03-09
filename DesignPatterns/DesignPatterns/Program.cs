@@ -30,11 +30,11 @@ namespace DesignPatterns
             Console.WriteLine("------- Abstract Factory-------");
             IFactoryProgram.Run();
             
-            // // 2. SortedList
-            // var sortedListProgram = new SortedListProgram();
-            // sortedListProgram.RunMergeSort();
-            // sortedListProgram.RunQuickSort();
-            // sortedListProgram.RunShellSort();
+            // 2. SortedList
+            var sortedListProgram = new SortedListProgram();
+            sortedListProgram.RunMergeSort();
+            sortedListProgram.RunQuickSort();
+            sortedListProgram.RunShellSort();
             
             // 3. Observer
             Console.WriteLine("------- Observer-------");
