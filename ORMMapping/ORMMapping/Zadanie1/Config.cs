@@ -5,7 +5,7 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
 
-namespace ORMMapping
+namespace ORMMapping.Zadanie1
 {
     public class Config
     {

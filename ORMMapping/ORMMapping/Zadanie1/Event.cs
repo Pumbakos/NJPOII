@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using FluentNHibernate.Mapping;
 
-namespace ORMMapping
+namespace ORMMapping.Zadanie1
 {
     public class Event
     {
@@ -26,9 +26,7 @@ namespace ORMMapping
         public EventMap()
         {
             Table("Event");
-
             Id(x => x.Id);
-
             Map(x => x.EventOccurenceDateTime);
             Map(x => x.EventSource);
             Map(x => x.AdditionalData);
